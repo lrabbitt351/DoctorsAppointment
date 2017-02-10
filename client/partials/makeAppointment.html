@@ -1,0 +1,14 @@
+<div ng-controller="userController">
+<div ng-controller="appointmentController">
+  <h1>New Appointment</h1>
+  <a href="#!/dash">Home</a> | <a href="/logout">Logout</a>
+  <form ng-submit="addAppointment()">
+    <p ng-repeat="error in errors" style="color: red">{{error}}</p>
+    <h2 id="success" style="color: green"></h2>
+    Date: <input type="text" ng-model="newAppointment.date" id="datepicker"  name="" value="">
+    Time: <input type="text" ng-model="newAppointment.time" id="timepicker" class="timepicker"  name="time" value="">
+    Complaint: <textarea ng-model="newAppointment.complaint" name="name" rows="8" cols="80"></textarea>
+    <input type="submit" name="" value="Add New Appointment">   <button type="button" name="button"><a href="#!/dash">Cancel</a></button>
+  </form>
+</div>
+</div>

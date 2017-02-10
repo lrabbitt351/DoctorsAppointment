@@ -1,0 +1,26 @@
+{
+  "name": "drappt",
+  "version": "1.0.0",
+  "description": "Login or register as a user and create, delete, and view your doctor's appointments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "MEAN",
+    "Mongoose",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "Leo Rabbitt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "mongoose": "^4.8.1",
+    "path": "^0.12.7"
+  }
+}
